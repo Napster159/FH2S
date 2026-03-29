@@ -74,7 +74,7 @@ export const PdfPreview = () => {
 
       <div className="w-full p-4 bg-white border-t border-slate-200 text-center">
         <p className="text-[10px] items-center gap-1 flex justify-center text-slate-400 font-bold uppercase tracking-widest">
-          Formulaire électronique de remplissage FH2 – AtlataSanad | AYOUB ERRAKI
+          Formulaire électronique de remplissage FH2 – AtlantaSanad | AYOUB ERRAKI
         </p>
       </div>
     </div>
