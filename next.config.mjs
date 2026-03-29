@@ -5,6 +5,7 @@ const nextConfig = {
   images: {
     unoptimized: true, // Required for static export
   },
+  transpilePackages: ['pdfjs-dist'],
 };
 
 export default nextConfig;
