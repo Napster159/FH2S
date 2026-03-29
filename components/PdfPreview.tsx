@@ -58,16 +58,16 @@ export const PdfPreview = () => {
         </button>
       </div>
 
-      <div className="flex-1 w-full bg-slate-100 overflow-auto p-8 flex justify-center">
+      <div className="flex-1 w-full bg-slate-100 overflow-hidden flex justify-center">
         {pdfUrl ? (
-          <div className="w-full max-w-[800px] bg-white shadow-2xl rounded-lg overflow-hidden border border-slate-200">
+          <div className="w-full h-full">
             <PdfCanvasSection pdfUrl={pdfUrl} />
           </div>
         ) : (
           <div className="flex flex-col items-center justify-center p-20 text-slate-400">
             <FileText size={48} className="mb-4 animate-pulse opacity-50" />
             <p className="font-semibold text-lg">Chargement de l'aperçu...</p>
-            <p className="text-sm mt-2 text-center max-w-[200px]">Assurez-vous que le template existe dans /public/templates/</p>
+            <p className="text-sm mt-2 text-center max-w-[200px]">Génération du document en cours depuis votre navigateur.</p>
           </div>
         )}
       </div>
