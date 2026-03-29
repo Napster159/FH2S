@@ -30,7 +30,7 @@ export default function Home() {
             className="max-w-4xl mx-auto space-y-6 md:space-y-8"
           >
             <div className="space-y-2 px-1">
-              <h1 className="text-2xl md:text-3xl font-extrabold text-slate-800 tracking-tight">Bulletin d'Adhésion FH2S – AtlataSanad</h1>
+              <h1 className="text-2xl md:text-3xl font-extrabold text-slate-800 tracking-tight">Bulletin d'Adhésion FH2S – AtlantaSanad</h1>
               <p className="text-sm md:text-slate-500 font-medium italic">Remplissez les informations ci-dessous pour générer votre document officiel.</p>
             </div>
 
