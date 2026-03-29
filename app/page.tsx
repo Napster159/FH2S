@@ -31,7 +31,7 @@ export default function Home() {
           >
             <div className="space-y-2 px-1">
               <h1 className="text-2xl md:text-3xl font-extrabold text-slate-800 tracking-tight">Bulletin d'Adhésion FH2S – AtlantaSanad</h1>
-              <p className="text-sm md:text-slate-500 font-medium italic">Remplissez les informations ci-dessous pour générer votre document officiel.</p>
+              <p className="text-sm md:text-slate-500 font-medium italic">Remplissez les informations ci-dessous pour générer votre document.</p>
             </div>
 
             <BulletinStatusSection />
