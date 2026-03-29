@@ -7,9 +7,9 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const outfit = Outfit({ subsets: ["latin"], variable: "--font-outfit" });
 
 export const metadata: Metadata = {
-  title: "FH2-AtlataSanad | Formulaire Électronique de Remplissage FH2S",
-  description: "Solution gratuite de remplissage automatisé du Bulletin FH2S pour AtlataSanad. Génération de PDF sécurisée et locale par AYOUB ERRAKI.",
-  keywords: ["FH2", "FH2S", "AtlataSanad", "Remplissage PDF", "Automatisation", "Formulaire Électronique", "AYOUB ERRAKI"],
+  title: "FH2-AtlantaSanad | Formulaire Électronique de Remplissage FH2S",
+  description: "Solution gratuite de remplissage automatisé du Bulletin FH2S pour AtlantaSanad. Génération de PDF sécurisée et locale par AYOUB ERRAKI.",
+  keywords: ["FH2", "FH2S", "AtlantaSanad", "Remplissage PDF", "Automatisation", "Formulaire Électronique", "AYOUB ERRAKI"],
   icons: {
     icon: "https://cdn-icons-png.flaticon.com/512/11733/11733416.png",
     shortcut: "https://cdn-icons-png.flaticon.com/512/11733/11733416.png",
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "SoftwareApplication",
-  "name": "FH2-AtlataSanad Automation PDF",
+  "name": "FH2-AtlantaSanad Automation PDF",
   "operatingSystem": "All",
   "applicationCategory": "BusinessApplication",
   "offers": {
@@ -32,7 +32,7 @@ const jsonLd = {
     "@type": "Person",
     "name": "AYOUB ERRAKI"
   },
-  "description": "Formulaire électronique de remplissage automatisé pour le bulletin FH2S / AtlataSanad."
+  "description": "Formulaire électronique de remplissage automatisé pour le bulletin FH2S / AtlantaSanad."
 };
 
 export default function RootLayout({
