@@ -49,7 +49,7 @@ export const ActionHeader = () => {
             />
           </div>
           <div className="hidden sm:block">
-            <h1 className="text-lg md:text-xl font-bold text-slate-900 leading-tight">FH2-AtlataSanad</h1>
+            <h1 className="text-lg md:text-xl font-bold text-slate-900 leading-tight">FH2-AtlantaSanad</h1>
             <p className="text-[10px] font-semibold text-slate-400 uppercase tracking-widest leading-none">Formulaire Électronique</p>
           </div>
           <div className="sm:hidden">
