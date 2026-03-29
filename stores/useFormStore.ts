@@ -193,7 +193,7 @@ export const useFormStore = create<FormState>()(
         signedAt: 'Casablanca',
         signedDate: '2026-03-29',
         spouses: [
-          { id: crypto.randomUUID(), firstName: 'Jane', lastName: 'DOE', birthDate: '1988-10-20', profession: 'Enseignante' },
+          { id: crypto.randomUUID(), firstName: 'Jane', lastName: 'DOE', birthDate: '1988-10-20', profession: '-' },
         ],
         children: [
           { id: crypto.randomUUID(), name: 'Jimmy Doe', birthDate: '2015-03-10', gender: 'M', isSchooled: true, baseRegimeInsurer: 'CNOPS', situation: 'N' },
