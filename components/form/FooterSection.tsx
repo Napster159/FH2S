@@ -42,7 +42,7 @@ export const FooterSection = () => {
             <input
               type="date"
               value={signedDate}
-              onChange={(e) => updateField('signedAt', e.target.value)} // User's interface says signedOnDate
+              onChange={(e) => updateField('signedDate', e.target.value)}
               className="w-full pl-10 pr-4 py-2 rounded-lg border border-slate-200 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-all"
             />
           </div>
